@@ -28,6 +28,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Setup Client-1 & Change Settings to dc-1's Private IP Adrress
 - Attempt to Ping DC-1 Private IP address using PowerShell
 - Run ipconfig /all for DNS setting 10.0.0.4
+- Create a Domain Admin User
+- Setup Remote Desktop for Non-admin users on Client-1
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -63,5 +65,21 @@ On Client-1 VM click on Start button the type Powershell, type ping and dc-1 pri
 </p>
 <p>
 From Client-1 VM open PowerShell and run ipconfig /all, the DNS settings should show dc-1 private IP address (10.0.0.4)
+</p>
+<br />
+
+![image]
+
+</p>
+<p>
+TYPE HERE
+</p>
+<br />
+
+![image]
+
+</p>
+<p>
+TYPE HERE
 </p>
 <br />
