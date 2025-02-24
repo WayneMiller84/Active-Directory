@@ -36,8 +36,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 </p>
 <p>
-  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Create a Resource Group, Create a Virtual Network and Subnet, Create the Domain Controller VM (dc-1) & Client VM (Client-1) in Azure, once VM is created, set dc-1 NIC Private IP address to static & Client-1 DNS settings to DC-1's private IP address
+
 </p>
 <br />
 
