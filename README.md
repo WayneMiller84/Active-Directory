@@ -68,11 +68,15 @@ From Client-1 VM open PowerShell and run ipconfig /all, the DNS settings should 
 </p>
 <br />
 
-![image]
+![image](https://github.com/user-attachments/assets/2139a6fc-0607-4cf8-a485-0a954fc85cc6)
 
 </p>
 <p>
-TYPE HERE
+Created a Domain Admin User, in Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
+Create a new OU named “_ADMINS”, Create a new employee named “Jane Doe”
+Add jane_admin to the “Domain Admins” Security Group, Log out / close the connection to DC-1 and log back in as “mydomain.com\jane_admin”
+and from this point User jane_admin will be the admin account
+
 </p>
 <br />
 
