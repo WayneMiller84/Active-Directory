@@ -29,7 +29,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Attempt to Ping DC-1 Private IP address using PowerShell
 - Run ipconfig /all for DNS setting 10.0.0.4
 - Create a Domain Admin User
-- Setup Remote Desktop for Non-admin users on Client-1
+- Setup Remote Desktop for 10,000 Non-admin users on Client-1
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -80,10 +80,13 @@ and from this point User jane_admin will be the admin account
 </p>
 <br />
 
-![image]
+![image](https://github.com/user-attachments/assets/ee2a7252-3b37-40aa-a93e-2cff85754cab)
 
 </p>
 <p>
-TYPE HERE
+Log into Client-1 VM as mydomain.com\jane_admin, Open system properties, Click “Remote Desktop”, Allow “domain users” access to remote desktop
+Open PowerShell_ise as an administrator, Create a new File and paste the contents of the script into it Run the script and observe the accounts being created
+When finished, open ADUC and observe the accounts in the appropriate OU　(_EMPLOYEES) and see 10,000 non-admin users created
+
 </p>
 <br />
